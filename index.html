@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/33ad61f599.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container margins">
+        <h2 class="title">Expense Tracker</h2>
+        <span class="subtitle">Add a new Item:</span>
+        <form class="form">
+            <div class="flex-item">
+                <label for="type">Type:
+                    <select class="input" name="type" id="inp-type" required>
+                        <option value="cash">Cash</option>
+                        <option value="debit card">Debit Card</option>
+                        <option value="credit card">Credit Card</option>
+                    </select>
+                </label>
+                <label for="inp-text">Name:
+                    <input class="input" name="inp-text" type="text" id="inp-text"
+                        placeholder="Where was the expense made?" required>
+                </label>
+            </div>
+            <div class="flex-item">
+                <label for="date">Date:
+                    <input class="input" type="date" name="date" id="inp-date" required>
+                </label>
+                <label for="amount">Amount:
+                    <input class="input amount" type="number" name="amount" id="inp-number" required>
+                </label>
+            </div>
+            <div class="flex-item">
+                <button class="submit-btn" type="submit">Add expense</button>
+            </div>
+        </form>
+        <div class="black-box margins">
+        </div>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>

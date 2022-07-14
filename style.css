@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+}
+
+.margins {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.subtitle{
+    font-size:1.7rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(10, 164, 10);
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 50%;
+}
+
+.input {
+    width: 85%;
+    height: 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 2rem;
+    background-color: rgb(10, 164, 10);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.black-box {
+    background-color: black;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items {
+    border-right: 1px solid grey;
+    width: 20%;
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.expense {
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    width: 20%;
+    margin-left: 0.5rem;
+    height: 2rem;
+    padding-top: 0.3rem;
+}
+
+.ultimo {
+    border-right: none;
+    border-bottom: none; 
+}
